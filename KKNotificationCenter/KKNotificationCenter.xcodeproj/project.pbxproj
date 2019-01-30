@@ -15,6 +15,7 @@
 		E6433C402201930C003E8419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C3F2201930C003E8419 /* main.m */; };
 		E6433C4A2201930C003E8419 /* KKNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C492201930C003E8419 /* KKNotificationCenterTests.m */; };
 		E6433C552201930C003E8419 /* KKNotificationCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C542201930C003E8419 /* KKNotificationCenterUITests.m */; };
+		E6433C6422019358003E8419 /* KKNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C6322019358003E8419 /* KKNotificationCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E6433C502201930C003E8419 /* KKNotificationCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKNotificationCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6433C542201930C003E8419 /* KKNotificationCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKNotificationCenterUITests.m; sourceTree = "<group>"; };
 		E6433C562201930C003E8419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6433C6222019358003E8419 /* KKNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKNotificationCenter.h; sourceTree = "<group>"; };
+		E6433C6322019358003E8419 /* KKNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKNotificationCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E6433C3B2201930C003E8419 /* LaunchScreen.storyboard */,
 				E6433C3E2201930C003E8419 /* Info.plist */,
 				E6433C3F2201930C003E8419 /* main.m */,
+				E6433C6222019358003E8419 /* KKNotificationCenter.h */,
+				E6433C6322019358003E8419 /* KKNotificationCenter.m */,
 			);
 			path = KKNotificationCenter;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				E6433C352201930B003E8419 /* ViewController.m in Sources */,
 				E6433C402201930C003E8419 /* main.m in Sources */,
 				E6433C322201930B003E8419 /* AppDelegate.m in Sources */,
+				E6433C6422019358003E8419 /* KKNotificationCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
