@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6433C322201930B003E8419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C312201930B003E8419 /* AppDelegate.m */; };
+		E6433C352201930B003E8419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C342201930B003E8419 /* ViewController.m */; };
+		E6433C382201930B003E8419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6433C362201930B003E8419 /* Main.storyboard */; };
+		E6433C3A2201930C003E8419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6433C392201930C003E8419 /* Assets.xcassets */; };
+		E6433C3D2201930C003E8419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6433C3B2201930C003E8419 /* LaunchScreen.storyboard */; };
+		E6433C402201930C003E8419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C3F2201930C003E8419 /* main.m */; };
+		E6433C4A2201930C003E8419 /* KKNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C492201930C003E8419 /* KKNotificationCenterTests.m */; };
+		E6433C552201930C003E8419 /* KKNotificationCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6433C542201930C003E8419 /* KKNotificationCenterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6433C462201930C003E8419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6433C252201930B003E8419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6433C2C2201930B003E8419;
+			remoteInfo = KKNotificationCenter;
+		};
+		E6433C512201930C003E8419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6433C252201930B003E8419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6433C2C2201930B003E8419;
+			remoteInfo = KKNotificationCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6433C2D2201930B003E8419 /* KKNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6433C302201930B003E8419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6433C312201930B003E8419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6433C332201930B003E8419 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6433C342201930B003E8419 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6433C372201930B003E8419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6433C392201930C003E8419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6433C3C2201930C003E8419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6433C3E2201930C003E8419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6433C3F2201930C003E8419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6433C452201930C003E8419 /* KKNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6433C492201930C003E8419 /* KKNotificationCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKNotificationCenterTests.m; sourceTree = "<group>"; };
+		E6433C4B2201930C003E8419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6433C502201930C003E8419 /* KKNotificationCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKNotificationCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6433C542201930C003E8419 /* KKNotificationCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKNotificationCenterUITests.m; sourceTree = "<group>"; };
+		E6433C562201930C003E8419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6433C2A2201930B003E8419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6433C422201930C003E8419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6433C4D2201930C003E8419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6433C242201930B003E8419 = {
+			isa = PBXGroup;
+			children = (
+				E6433C2F2201930B003E8419 /* KKNotificationCenter */,
+				E6433C482201930C003E8419 /* KKNotificationCenterTests */,
+				E6433C532201930C003E8419 /* KKNotificationCenterUITests */,
+				E6433C2E2201930B003E8419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6433C2E2201930B003E8419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6433C2D2201930B003E8419 /* KKNotificationCenter.app */,
+				E6433C452201930C003E8419 /* KKNotificationCenterTests.xctest */,
+				E6433C502201930C003E8419 /* KKNotificationCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6433C2F2201930B003E8419 /* KKNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6433C302201930B003E8419 /* AppDelegate.h */,
+				E6433C312201930B003E8419 /* AppDelegate.m */,
+				E6433C332201930B003E8419 /* ViewController.h */,
+				E6433C342201930B003E8419 /* ViewController.m */,
+				E6433C362201930B003E8419 /* Main.storyboard */,
+				E6433C392201930C003E8419 /* Assets.xcassets */,
+				E6433C3B2201930C003E8419 /* LaunchScreen.storyboard */,
+				E6433C3E2201930C003E8419 /* Info.plist */,
+				E6433C3F2201930C003E8419 /* main.m */,
+			);
+			path = KKNotificationCenter;
+			sourceTree = "<group>";
+		};
+		E6433C482201930C003E8419 /* KKNotificationCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6433C492201930C003E8419 /* KKNotificationCenterTests.m */,
+				E6433C4B2201930C003E8419 /* Info.plist */,
+			);
+			path = KKNotificationCenterTests;
+			sourceTree = "<group>";
+		};
+		E6433C532201930C003E8419 /* KKNotificationCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6433C542201930C003E8419 /* KKNotificationCenterUITests.m */,
+				E6433C562201930C003E8419 /* Info.plist */,
+			);
+			path = KKNotificationCenterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6433C2C2201930B003E8419 /* KKNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6433C592201930C003E8419 /* Build configuration list for PBXNativeTarget "KKNotificationCenter" */;
+			buildPhases = (
+				E6433C292201930B003E8419 /* Sources */,
+				E6433C2A2201930B003E8419 /* Frameworks */,
+				E6433C2B2201930B003E8419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKNotificationCenter;
+			productName = KKNotificationCenter;
+			productReference = E6433C2D2201930B003E8419 /* KKNotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6433C442201930C003E8419 /* KKNotificationCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6433C5C2201930C003E8419 /* Build configuration list for PBXNativeTarget "KKNotificationCenterTests" */;
+			buildPhases = (
+				E6433C412201930C003E8419 /* Sources */,
+				E6433C422201930C003E8419 /* Frameworks */,
+				E6433C432201930C003E8419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6433C472201930C003E8419 /* PBXTargetDependency */,
+			);
+			name = KKNotificationCenterTests;
+			productName = KKNotificationCenterTests;
+			productReference = E6433C452201930C003E8419 /* KKNotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6433C4F2201930C003E8419 /* KKNotificationCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6433C5F2201930C003E8419 /* Build configuration list for PBXNativeTarget "KKNotificationCenterUITests" */;
+			buildPhases = (
+				E6433C4C2201930C003E8419 /* Sources */,
+				E6433C4D2201930C003E8419 /* Frameworks */,
+				E6433C4E2201930C003E8419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6433C522201930C003E8419 /* PBXTargetDependency */,
+			);
+			name = KKNotificationCenterUITests;
+			productName = KKNotificationCenterUITests;
+			productReference = E6433C502201930C003E8419 /* KKNotificationCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6433C252201930B003E8419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Annie Lee";
+				TargetAttributes = {
+					E6433C2C2201930B003E8419 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E6433C442201930C003E8419 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E6433C2C2201930B003E8419;
+					};
+					E6433C4F2201930C003E8419 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E6433C2C2201930B003E8419;
+					};
+				};
+			};
+			buildConfigurationList = E6433C282201930B003E8419 /* Build configuration list for PBXProject "KKNotificationCenter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6433C242201930B003E8419;
+			productRefGroup = E6433C2E2201930B003E8419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6433C2C2201930B003E8419 /* KKNotificationCenter */,
+				E6433C442201930C003E8419 /* KKNotificationCenterTests */,
+				E6433C4F2201930C003E8419 /* KKNotificationCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6433C2B2201930B003E8419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6433C3D2201930C003E8419 /* LaunchScreen.storyboard in Resources */,
+				E6433C3A2201930C003E8419 /* Assets.xcassets in Resources */,
+				E6433C382201930B003E8419 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6433C432201930C003E8419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6433C4E2201930C003E8419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6433C292201930B003E8419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6433C352201930B003E8419 /* ViewController.m in Sources */,
+				E6433C402201930C003E8419 /* main.m in Sources */,
+				E6433C322201930B003E8419 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6433C412201930C003E8419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6433C4A2201930C003E8419 /* KKNotificationCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6433C4C2201930C003E8419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6433C552201930C003E8419 /* KKNotificationCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6433C472201930C003E8419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6433C2C2201930B003E8419 /* KKNotificationCenter */;
+			targetProxy = E6433C462201930C003E8419 /* PBXContainerItemProxy */;
+		};
+		E6433C522201930C003E8419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6433C2C2201930B003E8419 /* KKNotificationCenter */;
+			targetProxy = E6433C512201930C003E8419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6433C362201930B003E8419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6433C372201930B003E8419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6433C3B2201930C003E8419 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6433C3C2201930C003E8419 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6433C572201930C003E8419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6433C582201930C003E8419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6433C5A2201930C003E8419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAV3SU72C4;
+				INFOPLIST_FILE = KKNotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annielee.KKNotificationCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6433C5B2201930C003E8419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAV3SU72C4;
+				INFOPLIST_FILE = KKNotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annielee.KKNotificationCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6433C5D2201930C003E8419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAV3SU72C4;
+				INFOPLIST_FILE = KKNotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annielee.KKNotificationCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKNotificationCenter.app/KKNotificationCenter";
+			};
+			name = Debug;
+		};
+		E6433C5E2201930C003E8419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAV3SU72C4;
+				INFOPLIST_FILE = KKNotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annielee.KKNotificationCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKNotificationCenter.app/KKNotificationCenter";
+			};
+			name = Release;
+		};
+		E6433C602201930C003E8419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAV3SU72C4;
+				INFOPLIST_FILE = KKNotificationCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annielee.KKNotificationCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKNotificationCenter;
+			};
+			name = Debug;
+		};
+		E6433C612201930C003E8419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAV3SU72C4;
+				INFOPLIST_FILE = KKNotificationCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annielee.KKNotificationCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKNotificationCenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6433C282201930B003E8419 /* Build configuration list for PBXProject "KKNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6433C572201930C003E8419 /* Debug */,
+				E6433C582201930C003E8419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6433C592201930C003E8419 /* Build configuration list for PBXNativeTarget "KKNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6433C5A2201930C003E8419 /* Debug */,
+				E6433C5B2201930C003E8419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6433C5C2201930C003E8419 /* Build configuration list for PBXNativeTarget "KKNotificationCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6433C5D2201930C003E8419 /* Debug */,
+				E6433C5E2201930C003E8419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6433C5F2201930C003E8419 /* Build configuration list for PBXNativeTarget "KKNotificationCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6433C602201930C003E8419 /* Debug */,
+				E6433C612201930C003E8419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6433C252201930B003E8419 /* Project object */;
+}
